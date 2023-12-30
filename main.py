@@ -10,6 +10,8 @@ from models.get_model import get_model
 from train import train, test
 from utils.utils import Draw
 
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="run patch-based HSI classification")
     parser.add_argument("--model", type=str, default='gscvit') # model name
