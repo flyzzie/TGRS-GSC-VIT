@@ -43,3 +43,5 @@ def get_model(model_name, dataset_name, patch_size):
         raise KeyError("{} model is not supported yet".format(model_name))
 
     return model
+
+
