@@ -44,7 +44,3 @@ def get_model(model_name, dataset_name, patch_size):
 
     return model
 
-
-
-
-
