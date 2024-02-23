@@ -20,7 +20,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_dir", type=str, default="./datasets") # dataset dir
     parser.add_argument("--device", type=str, default="0")
     parser.add_argument("--patch_size", type=int, default=8) # patch_size
-    parser.add_argument("--num_run", type=int, default=5)
+    parser.add_argument("--num_run", type=int, default=10)
     parser.add_argument("--epoch", type=int, default=200)
     parser.add_argument("--bs", type=int, default=128)  # bs = batch size
     parser.add_argument("--ratio", type=float, default=0.02) # ratio of training + validation sample
@@ -47,7 +47,7 @@ if __name__ == "__main__":
     num_bands = image.shape[-1]
 
     # random seeds
-    seeds = [202201, 202202, 202203, 202204, 202205]
+    seeds = [202401, 202402, 202403, 202404, 202405, 202406, 202407, 202408, 202409, 202410]
 
     # empty list to storing results
     results = []
